@@ -1,0 +1,16 @@
+<head>
+  <div class="popup" onclick="myFunction()">This website was made for a school project for fun i made in 21st century, use this website at the appropriate times only to avoid trouble, i do not condone any issues with it if you get in trouble.</span>
+</div>
+      <title>Lurk's Slope Unblocked</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="TemplateData/unityloader41.js"></script>
+    <script>
+        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/slope.json", { onProgress: UnityProgress, Module: { onRuntimeInitialized: function() { UnityProgress(gameInstance, "complete") } } });
+    </script>
+</head>
+<body style="margin: 0; overflow: hidden;">
+    <div class="webgl-content">
+        <div id="gameContainer" style="width: 100%; height: 100%; margin: 0;"></div>
+    </div>
+</body>
